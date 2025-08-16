@@ -23,6 +23,7 @@ const operate = (operator, num1, num2)=>{
         case '/':
             return divide(num1, num2);
         default:
-            alert("Invalid operator! Please use +, -, * or /")
+            alert("Invalid operator! Please use +, -, * or /");
+            return;
     }
 }
